@@ -35,6 +35,49 @@ foreach (string arg in theArgs)
 // # Formatting Numerical Data
 // UsingConsoleClass.FormatNumericalData();
 // # Formatting Numerical Data Beyond Console Applications
-UsingConsoleClass.StringFormatDemo();
+// UsingConsoleClass.StringFormatDemo();
+
+// # Working with System Data Types and Corresponding C# Keywords
+// ## Understanding Variable Declaration and Initialization
+Console.WriteLine("***** Fun with Basic Data Types *****");
+// WorkWithSystemDataTypesAndKeywords.LocalVarDeclarations();
+
+// ### The default Literal (New 7.1)
+// WorkWithSystemDataTypesAndKeywords.DefaultDeclarations();
+
+// ## Using Intrinsic Data Types and the new Operator (Updated 9.0)
+// WorkWithSystemDataTypesAndKeywords.NewingDataTypes();
+// WorkWithSystemDataTypesAndKeywords.NewingDataTypesWith9();
+
+// ## Understanding the Data Type Class Hierarchy
+// WorkWithSystemDataTypesAndKeywords.ObjectFunctionality();
+
+// ## Understanding the Members of Numerical Data Types
+// WorkWithSystemDataTypesAndKeywords.DataTypeFunctionality();
+
+// ## Understanding the Members of System.Boolean
+// WorkWithSystemDataTypesAndKeywords.BooleanProperties();
+
+// ## Understanding the Members of System.Char
+// WorkWithSystemDataTypesAndKeywords.CharFunctionality();
+
+// ## Parsing Values from String Data
+// WorkWithSystemDataTypesAndKeywords.ParseFromStrings();
+
+// ## Using TryParse to Parse Values from String Data
+// WorkWithSystemDataTypesAndKeywords.ParseFromStringsWithTryParse();
+
+// ## Using System.DateTime and System.TimeSpan (Updated 10.0)
+// WorkWithSystemDataTypesAndKeywords.UseDatesAndTimes();
+
+// ## Working with the System.Numerics Namespace
+// WorkWithSystemDataTypesAndKeywords.UseBigInteger();
+
+// ## Using Digit Separators (New 7.0)
+// WorkWithSystemDataTypesAndKeywords.DigitSeparators();
+
+// ## Using Binary Literals (New 7.0/7.2)
+WorkWithSystemDataTypesAndKeywords.BinaryLiterals();
+
 
 return 0;
