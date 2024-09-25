@@ -39,7 +39,7 @@ foreach (string arg in theArgs)
 
 // # Working with System Data Types and Corresponding C# Keywords
 // ## Understanding Variable Declaration and Initialization
-Console.WriteLine("***** Fun with Basic Data Types *****");
+// Console.WriteLine("***** Fun with Basic Data Types *****");
 // WorkWithSystemDataTypesAndKeywords.LocalVarDeclarations();
 
 // ### The default Literal (New 7.1)
@@ -77,7 +77,41 @@ Console.WriteLine("***** Fun with Basic Data Types *****");
 // WorkWithSystemDataTypesAndKeywords.DigitSeparators();
 
 // ## Using Binary Literals (New 7.0/7.2)
-WorkWithSystemDataTypesAndKeywords.BinaryLiterals();
+// WorkWithSystemDataTypesAndKeywords.BinaryLiterals();
+
+// # Working with String Data
+Console.WriteLine("***** Working with String Data *****");
+
+// ## Performing Basic String Manipulation
+WorkingWithStringData.BasicStringFunctionality();
+
+// ## Performing String Concatenation
+WorkingWithStringData.StringConcatenation();
+
+// ## Using Escape Characters
+WorkingWithStringData.EscapeChars();
+
+// ## Performing String Interpolation
+WorkingWithStringData.StringInterpolation();
+
+// ### Performance Improvements (Updated 10.0)
+WorkingWithStringData.StringInterpolationWithDefaultInterpolatedStringHandler();
+
+// ## Defining Verbatim Strings (Updated 8.0)
+WorkingWithStringData.VerbatimStrings();
+
+// ## Working with Strings and Equality
+WorkingWithStringData.StringEquality();
+
+// ### Modifying String Comparison Behavior
+WorkingWithStringData.StringEqualitySpecifyingCompareRules();
+
+// ## Strings Are Immutable
+WorkingWithStringData.StringsAreImmutable();
+WorkingWithStringData.StringsAreImmutable2();
+
+// ## Using the System.Text.StringBuilder Type
+WorkingWithStringData.FunWithStringBuilder();
 
 
 return 0;
