@@ -80,38 +80,43 @@ foreach (string arg in theArgs)
 // WorkWithSystemDataTypesAndKeywords.BinaryLiterals();
 
 // # Working with String Data
-Console.WriteLine("***** Working with String Data *****");
+// Console.WriteLine("***** Working with String Data *****");
 
 // ## Performing Basic String Manipulation
-WorkingWithStringData.BasicStringFunctionality();
+// WorkingWithStringData.BasicStringFunctionality();
 
 // ## Performing String Concatenation
-WorkingWithStringData.StringConcatenation();
+// WorkingWithStringData.StringConcatenation();
 
 // ## Using Escape Characters
-WorkingWithStringData.EscapeChars();
+// WorkingWithStringData.EscapeChars();
 
 // ## Performing String Interpolation
-WorkingWithStringData.StringInterpolation();
+// WorkingWithStringData.StringInterpolation();
 
 // ### Performance Improvements (Updated 10.0)
-WorkingWithStringData.StringInterpolationWithDefaultInterpolatedStringHandler();
+// WorkingWithStringData.StringInterpolationWithDefaultInterpolatedStringHandler();
 
 // ## Defining Verbatim Strings (Updated 8.0)
-WorkingWithStringData.VerbatimStrings();
+// WorkingWithStringData.VerbatimStrings();
 
 // ## Working with Strings and Equality
-WorkingWithStringData.StringEquality();
+// WorkingWithStringData.StringEquality();
 
 // ### Modifying String Comparison Behavior
-WorkingWithStringData.StringEqualitySpecifyingCompareRules();
+// WorkingWithStringData.StringEqualitySpecifyingCompareRules();
 
 // ## Strings Are Immutable
-WorkingWithStringData.StringsAreImmutable();
-WorkingWithStringData.StringsAreImmutable2();
+// WorkingWithStringData.StringsAreImmutable();
+// WorkingWithStringData.StringsAreImmutable2();
 
 // ## Using the System.Text.StringBuilder Type
-WorkingWithStringData.FunWithStringBuilder();
+// WorkingWithStringData.FunWithStringBuilder();
 
+// # Narrowing and Widening Data Type Conversions
+NarrowingWideningDataTypeConversions.Main();
+
+// ## Using the checked Keyword
+NarrowingWideningDataTypeConversions.ProcessBytes();
 
 return 0;
