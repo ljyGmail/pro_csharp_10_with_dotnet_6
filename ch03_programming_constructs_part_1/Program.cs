@@ -121,17 +121,19 @@ foreach (string arg in theArgs)
 
 // # Working with C# Iteration Constructs
 // ## Using the for Loop
-WorkingWithCSharpIterationConstructs.UsingForLoop();
+// WorkingWithCSharpIterationConstructs.UsingForLoop();
 
 // ## Using the foreach Loop
-WorkingWithCSharpIterationConstructs.ForEachLoopExample();
+// WorkingWithCSharpIterationConstructs.ForEachLoopExample();
 
 // ## Using Implicit Typing Within foreach Constructs
-WorkingWithCSharpIterationConstructs.LinqQueryOverInts();
+// WorkingWithCSharpIterationConstructs.LinqQueryOverInts();
 
 // ## Using the while and do/while Looping Constructs
-WorkingWithCSharpIterationConstructs.WhileLoopExample();
-WorkingWithCSharpIterationConstructs.DoWhileLoopExample();
+// WorkingWithCSharpIterationConstructs.WhileLoopExample();
+// WorkingWithCSharpIterationConstructs.DoWhileLoopExample();
 
+// # A Quick Discussion About Scope
+AQuickDiscussionAboutScope.Main();
 
 return 0;
