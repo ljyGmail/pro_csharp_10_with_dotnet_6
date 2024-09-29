@@ -1,5 +1,3 @@
-using System.Diagnostics.CodeAnalysis;
-
 namespace ProgrammingConstructsPart1;
 
 public class NarrowingWideningDataTypeConversions

@@ -114,9 +114,24 @@ foreach (string arg in theArgs)
 // WorkingWithStringData.FunWithStringBuilder();
 
 // # Narrowing and Widening Data Type Conversions
-NarrowingWideningDataTypeConversions.Main();
+// NarrowingWideningDataTypeConversions.Main();
 
 // ## Using the checked Keyword
-NarrowingWideningDataTypeConversions.ProcessBytes();
+// NarrowingWideningDataTypeConversions.ProcessBytes();
+
+// # Working with C# Iteration Constructs
+// ## Using the for Loop
+WorkingWithCSharpIterationConstructs.UsingForLoop();
+
+// ## Using the foreach Loop
+WorkingWithCSharpIterationConstructs.ForEachLoopExample();
+
+// ## Using Implicit Typing Within foreach Constructs
+WorkingWithCSharpIterationConstructs.LinqQueryOverInts();
+
+// ## Using the while and do/while Looping Constructs
+WorkingWithCSharpIterationConstructs.WhileLoopExample();
+WorkingWithCSharpIterationConstructs.DoWhileLoopExample();
+
 
 return 0;
