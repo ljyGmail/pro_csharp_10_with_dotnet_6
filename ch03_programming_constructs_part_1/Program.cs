@@ -134,6 +134,44 @@ foreach (string arg in theArgs)
 // WorkingWithCSharpIterationConstructs.DoWhileLoopExample();
 
 // # A Quick Discussion About Scope
-AQuickDiscussionAboutScope.Main();
+// AQuickDiscussionAboutScope.Main();
+
+// # Working with Decision Constructs and the Relational / Equality Operators
+// ## Using the if/else statement
+// ## Using Equality and Relational Operators
+WorkingWithDecisionConstructsRelationalEqualityOperators.IfElseExample();
+
+// ## Using if/else with Pattern Matching (New 7.0)
+WorkingWithDecisionConstructsRelationalEqualityOperators.IfElsePatternMatching();
+
+// ## Making Pattern Matching Improvements (New 9.0)
+WorkingWithDecisionConstructsRelationalEqualityOperators.IfElsePatternMatchingUpdatedInCSharp9();
+
+// ## Using the Conditional Operator (Updated 7.2, 9.0)
+WorkingWithDecisionConstructsRelationalEqualityOperators.ExecuteIfElseUsingConditionalOperator();
+WorkingWithDecisionConstructsRelationalEqualityOperators.ConditionalRefExample();
+
+// ## Using Logical Operators
+
+// ## Using the switch Statement
+// WorkingWithDecisionConstructsRelationalEqualityOperators.SwitchExample();
+// WorkingWithDecisionConstructsRelationalEqualityOperators.SwitchOnStringExample();
+// WorkingWithDecisionConstructsRelationalEqualityOperators.SwitchOnEnumExample();
+// WorkingWithDecisionConstructsRelationalEqualityOperators.SwitchWithGoto();
+
+// ## Performing switch Statement Pattern Matching (New 7.0, Updated 9.0)
+// WorkingWithDecisionConstructsRelationalEqualityOperators.ExecutePatternMatchingSwitch();
+// WorkingWithDecisionConstructsRelationalEqualityOperators.ExecutePatternMatchingSwitchWithWhen();
+
+// ## Using switch Expressions (New 8.0)
+string color = WorkingWithDecisionConstructsRelationalEqualityOperators.FromRainbowClassic("Blue");
+Console.WriteLine(color);
+color = WorkingWithDecisionConstructsRelationalEqualityOperators.FromRainbow("Violet");
+Console.WriteLine(color);
+
+string result = WorkingWithDecisionConstructsRelationalEqualityOperators.RockPaperScissors("paper", "rock");
+Console.WriteLine(result);
+result = WorkingWithDecisionConstructsRelationalEqualityOperators.RockPaperScissors("scissors", "scissors");
+Console.WriteLine(result);
 
 return 0;
